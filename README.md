@@ -1,1 +1,1 @@
-The bunch of components, variables, colors, and config's I use to create Gatsby sites.
+The bunch of components, variables, colors, and configs I use to create Gatsby sites.
