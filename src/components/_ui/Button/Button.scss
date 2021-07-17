@@ -1,0 +1,135 @@
+@import "../../../styles/lib.scss";
+
+.Button {
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 150ms ease-out;
+    font-family: "Circular", sans-serif;
+    font-family: 'Space Mono', monospace;
+
+    &:hover {
+        cursor: pointer;
+        transition: all 150ms ease-out;
+    }
+
+
+    &--size {
+        &-xl {
+            font-size: 1.15em;
+            padding: 1.1em 3em 1.1em;
+
+            &:hover {
+                transform: translateY(-0.25em);
+            }
+        }
+
+        &-l {
+            font-size: 1em;
+            padding: 0.65em 1.5em 0.7em;
+
+            &:hover {
+                transform: translateY(-2px);
+            }
+        }
+
+        &-s {
+            font-size: 0.95em;
+            padding: 0.45em 1.25em 0.5em;
+        }
+    }
+
+    &--color {
+        &-blue {
+            background: $blue-500;
+            color: white;
+
+            &:hover {
+                background: $blue-600;
+            }
+        }
+
+        &-white-blue-stroke {
+            color: $blue-500;
+            background: white;
+            border: 2px solid $blue-400;
+            box-shadow: 0px 14px 49px rgba(0, 0, 0, 0.07);
+
+            &:hover {
+                box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.15);
+            }
+        }
+    }
+
+
+    &--shape {
+        &-round {
+            border-radius: 20px;
+        }
+
+        &-square {
+            border-radius: 5px;
+        }
+    }
+
+
+
+
+
+
+    // &--primary {
+    //     color: $white;
+    //     background: $blue-500;
+    //     border-color: $blue;
+
+    //     &:hover {
+    //         background: desaturate(darken($blue-500, 8%), 20%);
+    //         border-color: desaturate(darken($blue, 8%), 20%);
+    //         cursor: pointer;
+    //     }
+
+    //     &.Button--size-l {
+    //         &:hover {
+    //             background: $blue-500;
+    //             border-color: $blue-500;
+    //             box-shadow: $box-shadow__button--blue;
+    //         }
+    //     }
+    // }
+
+    &--secondary {
+        color: $blue-500;
+        background: transparent;
+        background: $white;
+        border-color: $blue-500;
+
+        &:hover {
+            box-shadow: $box-shadow__button--grey;
+            background: $blue-100;
+            cursor: pointer;
+        }
+
+        &.Button--size-l {
+            background: $blue-100;
+
+            &:hover {
+                box-shadow: $box-shadow__button--blue;
+            }
+        }
+    }
+
+    &--secondary--white {
+        color: $white;
+        background: transparent;;
+        border-color: $white;
+
+        &:hover {
+            background: rgba($white, 0.075);
+            transition: all 150ms ease-out;
+            cursor: pointer;
+        }
+    }
+
+    &:focus {
+        outline: none;
+    }
+}

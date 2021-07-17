@@ -1,0 +1,35 @@
+@import "../../../styles/lib.scss";
+
+.UiTooltip {
+    position: relative;
+    display: inline-block;
+
+    &__toggle {
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__message {
+        position: absolute;
+        //opacity: 0;
+        border: 1px solid;
+        width: 100%;
+
+        &--default {
+            background: $white;
+            font-size: 0.85em;
+            padding: 0.7em 0.8em;
+
+            p {
+                margin: 0.65em 0;
+                line-height: 1.4;
+            }
+
+            p:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

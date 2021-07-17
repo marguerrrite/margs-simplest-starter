@@ -1,0 +1,96 @@
+//theme colors and tints (dark900 to normal500 to light100)
+
+$blue-900: #111D33;
+$blue-800: #2a4a7f;
+$blue-700: #3a67b2;
+$blue-600: #4b84e5;
+$blue-500: #5393fe;
+$blue-400: #73abff;
+$blue-300: #cbdfff;
+$blue-200: #e3efff;
+$blue-100: #f1f8ff;
+
+$green-600: #61A840;
+$green-500: #6CBB47;
+$green-200: #E2F1DA;
+$green-100: #F0F8ED;
+
+$grey-900: #111010;
+$grey-800: #3D3F42;
+$grey-700: #7D7F81;
+$grey-600: #A9AAAB;
+$grey-500: #BEBFC0;
+$grey-400: #D4D4D5;
+$grey-300: #E9EAEA;
+$grey-200: #F2F2F2;
+$grey-100: #F9F9FA;
+
+$orange-600: #DC6039;
+$orange-500: #F46B3F;
+$orange-200: #FDE1D9;
+$orange-100: #FEF0EC;
+
+$pink-500: #E180F9;
+$pink-400: #CF9CFF;
+$pink-300: #E9D8F9;
+$pink-200: #F7D8FF;
+$pink-100: #F7F1FD;
+
+$mauve-200: #FFF7F7;
+
+// $pink-900: #804980;
+// $pink-800: #B366B3;
+// $pink-700: #CC74CC;
+// $pink-600: #E683E6;
+// $pink-500: #FF91FF;
+// $pink-400: #FFA7FF;
+// $pink-300: #FFC8FF;
+// $pink-200: #FFFEFF;
+// $pink-100: #FFF4FF;
+
+$purple-900: #36254C;
+$purple-800: #5B3E80;
+$purple-700: #7f56b3;
+$purple-600: #A36FE6;
+$purple-500: #B57BFF;
+$purple-400: #C495FF;
+$purple-300: #D3B0FF;
+$purple-200: #F0E5FF;
+$purple-100: #F8F2FF;
+
+$teal-600: #159f9f;
+$teal-500: #17B1B1;
+$teal-200: #D1EFEF;
+$teal-100: #E8F7F7;
+
+
+// From old build
+$beige: #fcede5;
+$black: $grey-900;
+$blue: #5393fe;
+$green: #5fb23b;
+$grey: #808080;
+$grey-light: #989898;
+$peach: #f9c4b3;
+$purple: #9283ff;
+$purple-pink: #a400ff;
+$red: #f35d59;
+$red--dark: darken($red, 5%);
+$salmon: #ff8075;
+$slate: #455358;
+$white: #ffffff;
+$yellow: #fdbe00;
+$grey-50: #f8f8f9;
+$grey-75: #eaeaea;
+$purpleSlate: #1A051D;
+
+$box-shadow: 0 6px 8px rgba(102, 119, 136, .03),
+0 1px 2px rgba(102, 119, 136, .2);
+$box-shadow--hover: 0 2px 6px 0px rgba(65, 145, 255, 0.25);
+$box-shadow: 0 7px 48px rgba(102, 119, 136, 0.22);
+$box-shadow--blue: 0 7px 48px rgba(0, 47, 125, 0.12);
+$box-shadow--nav: 0 4px 10px rgba(146, 156, 166, 0.15);
+$box-shadow__image--blue: 0 7px 48px rgba($blue-800, 0.17);
+$box-shadow__image--grey: 0 17px 56px rgba($grey-700, 0.17);
+$box-shadow__button--grey: 0 2px 6px 0px rgba(65, 145, 255, 0.25);
+$box-shadow__button--blue: 0 2px 8px rgba(0, 47, 125, 0.2);

@@ -1,0 +1,121 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700&display=swap');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../assets/Charter-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../assets/charter_italic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../assets/Charter-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../assets/charter_bold_italic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../assets/CircularStd-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../assets/CircularStd-BookItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../assets/CircularStd-Medium.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../assets/CircularStd-MediumItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../assets/CircularStd-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../assets/CircularStd-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../assets/CircularStd-Black.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('../assets/CircularStd-BlackItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tropline';
+    src: url('../assets/Tropiline-Black.woff') format('woff');
+    font-weight: 800;
+}
+
+@font-face {
+	font-family: "TiemposHeadline";
+	src: url("../assets/TiemposHeadline-Bold.eot");
+	src: url("../assets/TiemposHeadline-Bold.eot?#iefix") format("embedded-opentype"),
+	url("../assets/TiemposHeadline-Bold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "TiemposHeadline";
+	src: url("../assets/TiemposHeadline-Bold-Italic.eot");
+	src: url("../assets/TiemposHeadline-Bold-Italic.eot?#iefix") format("embedded-opentype"),
+	url("../assets/TiemposHeadline-Bold-Italic.woff") format("woff");
+	font-style: italic;
+	font-weight: 700;
+}
